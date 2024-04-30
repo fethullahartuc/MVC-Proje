@@ -1,0 +1,43 @@
+﻿@model EntityLayer.Concrete.Writer
+@{
+    ViewBag.Title = "AddWriter";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+
+<h2>Yazar Ekleme Sayfası</h2>
+
+@using (Html.BeginForm("AddWriter", "Writer", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.Label("Yazar Adı")
+        @Html.TextBoxFor(x => x.WriterName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.WriterName, null, new { @class = "text-danger" })
+        <br /> <br />
+        @Html.Label("Yazar Soyadı")
+        @Html.TextBoxFor(x => x.WriterSurName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.WriterSurName, null, new { @class = "text-danger" })
+        <br /> <br />
+        @Html.Label("Yazar Ünvanı")
+        @Html.TextBoxFor(x => x.WriterTitle, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.WriterTitle, null, new { @class = "text-danger" })
+        <br /> <br />
+        @Html.Label("Yazar Mail Adresi")
+        @Html.TextBoxFor(x => x.WriterMail, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.WriterMail, null, new { @class = "text-danger" })
+        <br /> <br />
+        @Html.Label("Yazar Şifresi")
+        @Html.TextBoxFor(x => x.WriterPassword, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.WriterPassword, null, new { @class = "text-danger" })
+        <br /> <br />
+        @Html.Label("Yazar Görsel Linki")
+        @Html.TextBoxFor(x => x.WriterImage, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.WriterImage, null, new { @class = "text-danger" })
+        <br /> <br />
+        @Html.Label("Açıklamayı Yazınız")
+        @Html.TextAreaFor(x => x.WriterAbout, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.WriterAbout, null, new { @class = "text-danger" })
+        <br /> <br />
+        <button class="btn btn-primary">Kaydet</button>
+        <a href="/Writer/Index" class="btn btn-warning">Geri dön</a>
+    </div>
+}
