@@ -116,6 +116,10 @@
     <Compile Include="Migrations\202405241733052_migration_admin_table.Designer.cs">
       <DependentUpon>202405241733052_migration_admin_table.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202406021801040_ss.cs" />
+    <Compile Include="Migrations\202406021801040_ss.Designer.cs">
+      <DependentUpon>202406021801040_ss.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -162,6 +166,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202405241733052_migration_admin_table.resx">
       <DependentUpon>202405241733052_migration_admin_table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406021801040_ss.resx">
+      <DependentUpon>202406021801040_ss.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

@@ -49,3 +49,4 @@ C:\Users\fethu\Desktop\Asp.Shows\MvcProje\DataAccessLayer\obj\Debug\DataAccessLa
 C:\Users\fethu\Desktop\Asp.Shows\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contactadddate.resources
 C:\Users\fethu\Desktop\Asp.Shows\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migration_addimage_file.resources
 C:\Users\fethu\Desktop\Asp.Shows\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migration_admin_table.resources
+C:\Users\fethu\Desktop\Asp.Shows\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.ss.resources

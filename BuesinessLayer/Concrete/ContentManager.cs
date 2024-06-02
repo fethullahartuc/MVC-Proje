@@ -20,7 +20,7 @@ namespace BuesinessLayer.Concrete
 
 		public void ContentAdd(Content content)
 		{
-			throw new NotImplementedException();
+			_contentDal.Insert(content);
 		}
 
 		public void ContentRemove(Content content)
@@ -47,5 +47,10 @@ namespace BuesinessLayer.Concrete
 		{
 			return _contentDal.List(x=>x.HeadingID==id);
 		}
-	}
+
+        public List<Content> GetListByWriter(int id)
+        {
+			return _contentDal.List(x => x.WriterID==id);
+        }
+    }
 }

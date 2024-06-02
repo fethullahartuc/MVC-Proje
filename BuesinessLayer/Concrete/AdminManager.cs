@@ -14,6 +14,7 @@ namespace BuesinessLayer.Concrete
 	{
 		IAdminDal _adminDal;
 
+
 		public AdminManager(IAdminDal adminDal)
 		{
 			_adminDal = adminDal;
@@ -23,5 +24,7 @@ namespace BuesinessLayer.Concrete
 		{
 			return _adminDal.Get(x => x.AdminUserName.Equals(username) && x.AdminPassword.Equals(password));
 		}
-	}
+
+        
+    }
 }

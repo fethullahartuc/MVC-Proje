@@ -28,7 +28,12 @@ namespace BuesinessLayer.Concrete
 			return _headingDal.List();
 		}
 
-		public void HeadingAdd(Heading heading)
+        public List<Heading> GetListByWriter(int id)
+        {
+			return _headingDal.List(x=>x.WriterID == id);
+        }
+
+        public void HeadingAdd(Heading heading)
 		{
 			_headingDal.Insert(heading);
 		}
