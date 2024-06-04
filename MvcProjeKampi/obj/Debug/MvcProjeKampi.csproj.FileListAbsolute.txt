@@ -194,3 +194,7 @@ C:\Users\fethu\Desktop\Asp.Shows\MvcProje\MvcProjeKampi\obj\Debug\MvcProjeKampi.
 C:\Users\fethu\Desktop\Asp.Shows\MvcProje\MvcProjeKampi\obj\Debug\MvcProje.16E6A6F4.Up2Date
 C:\Users\fethu\Desktop\Asp.Shows\MvcProje\MvcProjeKampi\obj\Debug\MvcProjeKampi.dll
 C:\Users\fethu\Desktop\Asp.Shows\MvcProje\MvcProjeKampi\obj\Debug\MvcProjeKampi.pdb
+C:\Users\fethu\Desktop\Asp.Shows\MvcProjeKampi\MvcProjeKampi\bin\PagedList.dll
+C:\Users\fethu\Desktop\Asp.Shows\MvcProjeKampi\MvcProjeKampi\bin\PagedList.Mvc.dll
+C:\Users\fethu\Desktop\Asp.Shows\MvcProjeKampi\MvcProjeKampi\bin\PagedList.xml
+C:\Users\fethu\Desktop\Asp.Shows\MvcProjeKampi\MvcProjeKampi\bin\PagedList.Mvc.xml

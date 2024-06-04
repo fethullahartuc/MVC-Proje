@@ -15,7 +15,7 @@ namespace MvcProjeKampi.Controllers
     public class LoginController : Controller
     {
         AdminManager adm = new AdminManager(new EfAdminDal());
-
+        WriterLoginManager wlm = new WriterLoginManager(new EfWriterDal());
         // GET: Login
         [HttpGet]
         public ActionResult Index()
@@ -45,18 +45,25 @@ namespace MvcProjeKampi.Controllers
         [HttpPost]
         public ActionResult WriterLogin(Writer p)
         {
-            Context c = new Context();
-            var writerInfo = c.Writers.FirstOrDefault(x => x.WriterMail.Equals(p.WriterMail) && x.WriterPassword.Equals(p.WriterPassword));
-            if (writerInfo != null)
+            //Context c = new Context();
+            //var writerInfo = c.Writers.FirstOrDefault(x => x.WriterMail.Equals(p.WriterMail) && x.WriterPassword.Equals(p.WriterPassword));
+            var writeruserinfo = wlm.GetWriter(p.WriterMail,p.WriterPassword);
+            if (writeruserinfo != null)
             {
-                FormsAuthentication.SetAuthCookie(writerInfo.WriterMail, false);
-                Session["WriterMail"] = writerInfo.WriterMail;
+                FormsAuthentication.SetAuthCookie(writeruserinfo.WriterMail, false);
+                Session["WriterMail"] = writeruserinfo.WriterMail;
                 return RedirectToAction("MyContent", "WriterPanelContent");
             }
             else
             {
-                return RedirectToAction("MyContent");
+                return RedirectToAction("WriterLogin");
             }
+        }
+        public ActionResult LogOut()
+        {
+            FormsAuthentication.SignOut();
+            Session.Abandon();
+            return RedirectToAction("Headings","Default");
         }
 	}
 }

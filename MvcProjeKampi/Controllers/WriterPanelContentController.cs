@@ -25,8 +25,9 @@ namespace MvcProjeKampi.Controllers
             return View(contentValue);
         }
         [HttpGet]
-        public ActionResult AddContent()
+        public ActionResult AddContent(int id)
         {
+            ViewBag.dataid = id;
             return View();
         }
         [HttpPost]

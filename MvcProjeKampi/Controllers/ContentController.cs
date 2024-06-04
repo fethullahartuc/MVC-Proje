@@ -1,5 +1,6 @@
 ﻿using BuesinessLayer.Concrete;
 using DataAccessLayer.Entityramework;
+using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,5 +23,6 @@ namespace MvcProjeKampi.Controllers
             var contentValue = cm.GetListByHeadingID(id);
 			return View(contentValue);
 		}
-	}
+        
+    }
 }

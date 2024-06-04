@@ -10,8 +10,9 @@
 @using (Html.BeginForm("AddContent", "WriterPanelContent", FormMethod.Post))
 {
     <div class="form-group">
+        <input type="hidden" name="HeadingID" value="@ViewBag.dataid" 
         @Html.Label("İçerik")
-        @Html.TextAreaFor(x => x.ContentValue,4,30, new { @class = "form-control" })
+        @Html.TextAreaFor(x => x.ContentValue,10,30, new { @class = "form-control" })
         @Html.ValidationMessageFor(x => x.ContentValue, null, new { @class = "text-danger" })
         <br /> <br />
         
