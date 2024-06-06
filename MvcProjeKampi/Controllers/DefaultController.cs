@@ -24,6 +24,7 @@ namespace MvcProjeKampi.Controllers
             var contentlist = cm.GetListByHeadingID(id);
             return PartialView(contentlist);
         }
+      
 
     }
 }

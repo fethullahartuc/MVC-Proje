@@ -54,8 +54,8 @@ namespace MvcProjeKampi.Controllers
 		[HttpGet]
 		public ActionResult EditCategory(int id)
 		{
-			var vategoryValue = cm.GetByID(id);
-			return View(vategoryValue);
+			var categoryValue = cm.GetByID(id);
+			return View(categoryValue);
 		}
 		[HttpPost]
 		public ActionResult EditCategory(Category p)

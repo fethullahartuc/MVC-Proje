@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\fethu\\Desktop\\Asp.Shows\\MvcProjeKampi\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{58F3734B-E45F-4658-84C7-919108CDB64D}|MvcProjeKampi\\MvcProjeKampi.csproj|c:\\users\\fethu\\desktop\\asp.shows\\mvcprojekampi\\mvcprojekampi\\controllers\\writerpanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58F3734B-E45F-4658-84C7-919108CDB64D}|MvcProjeKampi\\MvcProjeKampi.csproj|solutionrelative:mvcprojekampi\\controllers\\writerpanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58F3734B-E45F-4658-84C7-919108CDB64D}|MvcProjeKampi\\MvcProjeKampi.csproj|c:\\users\\fethu\\desktop\\asp.shows\\mvcprojekampi\\mvcprojekampi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58F3734B-E45F-4658-84C7-919108CDB64D}|MvcProjeKampi\\MvcProjeKampi.csproj|solutionrelative:mvcprojekampi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58F3734B-E45F-4658-84C7-919108CDB64D}|MvcProjeKampi\\MvcProjeKampi.csproj|c:\\users\\fethu\\desktop\\asp.shows\\mvcprojekampi\\mvcprojekampi\\views\\login\\writerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{58F3734B-E45F-4658-84C7-919108CDB64D}|MvcProjeKampi\\MvcProjeKampi.csproj|solutionrelative:mvcprojekampi\\views\\login\\writerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C6A0C05-F201-43DF-8C1A-6574BCE410A8}|BuesinessLayer\\BuesinessLayer.csproj|c:\\users\\fethu\\desktop\\asp.shows\\mvcprojekampi\\buesinesslayer\\concrete\\writerloginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C6A0C05-F201-43DF-8C1A-6574BCE410A8}|BuesinessLayer\\BuesinessLayer.csproj|solutionrelative:buesinesslayer\\concrete\\writerloginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C6A0C05-F201-43DF-8C1A-6574BCE410A8}|BuesinessLayer\\BuesinessLayer.csproj|c:\\users\\fethu\\desktop\\asp.shows\\mvcprojekampi\\buesinesslayer\\abstract\\iwriterloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C6A0C05-F201-43DF-8C1A-6574BCE410A8}|BuesinessLayer\\BuesinessLayer.csproj|solutionrelative:buesinesslayer\\abstract\\iwriterloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -30,72 +9,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WriterPanelController.cs",
-              "DocumentMoniker": "C:\\Users\\fethu\\Desktop\\Asp.Shows\\MvcProjeKampi\\MvcProjeKampi\\Controllers\\WriterPanelController.cs",
-              "RelativeDocumentMoniker": "MvcProjeKampi\\Controllers\\WriterPanelController.cs",
-              "ToolTip": "C:\\Users\\fethu\\Desktop\\Asp.Shows\\MvcProjeKampi\\MvcProjeKampi\\Controllers\\WriterPanelController.cs",
-              "RelativeToolTip": "MvcProjeKampi\\Controllers\\WriterPanelController.cs",
-              "ViewState": "AQIAAGUAAAAAAAAAAAAawHAAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T05:26:59.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WriterLogin.cshtml",
-              "DocumentMoniker": "C:\\Users\\fethu\\Desktop\\Asp.Shows\\MvcProjeKampi\\MvcProjeKampi\\Views\\Login\\WriterLogin.cshtml",
-              "RelativeDocumentMoniker": "MvcProjeKampi\\Views\\Login\\WriterLogin.cshtml",
-              "ToolTip": "C:\\Users\\fethu\\Desktop\\Asp.Shows\\MvcProjeKampi\\MvcProjeKampi\\Views\\Login\\WriterLogin.cshtml",
-              "RelativeToolTip": "MvcProjeKampi\\Views\\Login\\WriterLogin.cshtml",
-              "ViewState": "AQIAABYAAAAAAAAAAAAhwDIAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-04T05:18:38.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WriterLoginManager.cs",
-              "DocumentMoniker": "C:\\Users\\fethu\\Desktop\\Asp.Shows\\MvcProjeKampi\\BuesinessLayer\\Concrete\\WriterLoginManager.cs",
-              "RelativeDocumentMoniker": "BuesinessLayer\\Concrete\\WriterLoginManager.cs",
-              "ToolTip": "C:\\Users\\fethu\\Desktop\\Asp.Shows\\MvcProjeKampi\\BuesinessLayer\\Concrete\\WriterLoginManager.cs",
-              "RelativeToolTip": "BuesinessLayer\\Concrete\\WriterLoginManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T05:13:12.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IWriterLoginService.cs",
-              "DocumentMoniker": "C:\\Users\\fethu\\Desktop\\Asp.Shows\\MvcProjeKampi\\BuesinessLayer\\Abstract\\IWriterLoginService.cs",
-              "RelativeDocumentMoniker": "BuesinessLayer\\Abstract\\IWriterLoginService.cs",
-              "ToolTip": "C:\\Users\\fethu\\Desktop\\Asp.Shows\\MvcProjeKampi\\BuesinessLayer\\Abstract\\IWriterLoginService.cs",
-              "RelativeToolTip": "BuesinessLayer\\Abstract\\IWriterLoginService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T05:12:56.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\fethu\\Desktop\\Asp.Shows\\MvcProjeKampi\\MvcProjeKampi\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "MvcProjeKampi\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\fethu\\Desktop\\Asp.Shows\\MvcProjeKampi\\MvcProjeKampi\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "MvcProjeKampi\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowDIAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T05:11:50.067Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

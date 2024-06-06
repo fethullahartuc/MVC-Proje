@@ -20,11 +20,34 @@ namespace BuesinessLayer.Concrete
 			_adminDal = adminDal;
 		}
 
-		public Admin Get(string username, string password)
+        public void AdminAdd(Admin admin)
+        {
+           _adminDal.Insert(admin);
+        }
+
+        public void AdminDelete(Admin admin)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void AdminUpdate(Admin admin)
+        {
+            _adminDal.Update(admin);
+        }
+
+        public Admin Get(string username, string password)
 		{
 			return _adminDal.Get(x => x.AdminUserName.Equals(username) && x.AdminPassword.Equals(password));
 		}
 
-        
+        public Admin GetByID(int id)
+        {
+            return _adminDal.Get(x => x.AdminId == id);
+        }
+
+        public List<Admin> GetList()
+        {
+            return _adminDal.List();
+        }
     }
 }
